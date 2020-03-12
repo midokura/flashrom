@@ -129,6 +129,7 @@
 /* Status Register Bits */
 #define SPI_SR_WIP	(0x01 << 0)
 #define SPI_SR_WEL	(0x01 << 1)
+#define SPI_SR_ERA_ERR	(0x01 << 5)
 #define SPI_SR_AAI	(0x01 << 6)
 
 /* Write Status Enable */
